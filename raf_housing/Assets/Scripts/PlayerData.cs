@@ -7,6 +7,7 @@ public class PlayerData
 {
     public string playerName;
     public float sliderValue;
+    public int timeOfSave;
     public List<HouseData> housePrefabs = new List<HouseData>(); // get access to the prefab so we can save the rotation and location of each.        
 }
 

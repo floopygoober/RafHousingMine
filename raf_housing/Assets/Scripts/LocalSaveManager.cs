@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 using System.IO;
-
+using System.Collections.Generic;
 public class LocalSaveManager : MonoBehaviour
 {
     public PlayerData playerData;
@@ -47,12 +47,15 @@ public class LocalSaveManager : MonoBehaviour
 
             HouseToAdd.Rotation = homie.transform.rotation;
             HouseToAdd.Position = homie.transform.position;
-
+            
             playerData.housePrefabs.Add(HouseToAdd);
         }
 
-        playerData.sliderValue = ChangeWorld.sliderValue;
+        DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);
+        long unixTime = dto.ToUnixTimeSeconds();
 
+        playerData.sliderValue = ChangeWorld.sliderValue;
+        playerData.timeOfSave = (int)unixTime;
         string json = JsonUtility.ToJson(playerData);
         // persistent data path is the place unity saves its game data to. this is like steams App data which is why its seperated from the unity files.
         // // this is a per user thing.
@@ -60,5 +63,9 @@ public class LocalSaveManager : MonoBehaviour
 
         File.WriteAllText(path, json);
         Debug.Log("Local save completed at: " + path);
+        
+        TelemetryManager.Instance.LogEvent("saveDateTime", new Dictionary<string, object> {
+            {"timeOfSave", System.DateTime.UtcNow.ToString("o") }
+        });
     }
 }

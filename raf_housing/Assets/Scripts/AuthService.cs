@@ -8,6 +8,8 @@ public class AuthService : MonoBehaviour
     [Header("URL Reference")]
     public BackendConfig config;
 
+    public static string signedInUser; // for grabbing the username after successful login in game scene.
+
     public IEnumerator SignUp(string username, string email, string password, System.Action<bool, string> callback)
     {
         var payload = new SignUpRequest{username = username, email = email, password = password};
@@ -81,6 +83,7 @@ public class AuthService : MonoBehaviour
         public string token;
         public string message;
     }
+
 }
 
 
