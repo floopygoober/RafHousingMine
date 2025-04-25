@@ -69,7 +69,7 @@ app.post("/Sync", async (req, res) => {
 
     try {
         const clientObj = JSON.parse(clientPlainJson);
-        const clientLastUpdated = clientObj.lastUpdated || 0;
+        const clientLastUpdated = clientObj.timeOfSave || 0;
 
         if (clientLastUpdated > data.decryptedLastUpdated) {
             data.rawjson = clientPlainJson;
