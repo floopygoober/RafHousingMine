@@ -58,7 +58,7 @@ public class LocalSaveManager : MonoBehaviour
         playerData.timeOfSave = (int)unixTime;
         string json = JsonUtility.ToJson(playerData);
         // persistent data path is the place unity saves its game data to. this is like steams App data which is why its seperated from the unity files.
-        // // this is a per user thing.
+        // this is a per user thing.
         string path = Path.Combine(Application.persistentDataPath, filename);
 
         File.WriteAllText(path, json);
