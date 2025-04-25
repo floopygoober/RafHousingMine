@@ -102,7 +102,9 @@ public class HouseManager : MonoBehaviour
     private void PlacePrefab(Vector2 position, Quaternion rotation)
     {
         GameObject placedObj = Instantiate(placementPrefab, position, rotation);
+        placedObj.tag = "House";
         placedObj.name = "PlacedPrefab_" + Time.time;
+        placedObj.SetActive(true);
         GameManager.Instance.CountNonWhitePixels();
     }
 

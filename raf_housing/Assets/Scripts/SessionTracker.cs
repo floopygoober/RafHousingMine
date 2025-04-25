@@ -14,9 +14,14 @@ public class SessionTracker : MonoBehaviour
         });
     }
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
     private void OnApplicationQuit()
     {
         float sessionDuration = Time.time - sessionStartTime;
+        Debug.Log(sessionDuration);
         TelemetryManager.Instance.LogEvent("session_end", new Dictionary<string, object> {
             {"duration_sec", sessionDuration},
             {"endTime", System.DateTime.UtcNow.ToString("o")}

@@ -6,23 +6,40 @@ public class LocalSaveManager : MonoBehaviour
 {
     public PlayerData playerData;
     private string filename = "LocalSaveRafHousing.json";
+    [SerializeField] private GameObject housePrefabToSpawn;
 
     private void Awake()
     {
-        LoadFromLocal(); 
+        LoadFromLocal();
     }
 
-    public void LoadFromLocal() 
+    //C:\Users\alimg\AppData\LocalLow\DefaultCompany\RafHousing2D - the path it is actually saved to.
+    //C:/Users/alimg/RafHousingMine/raf_housing/Assets\LocalSaveRafHousing.json - the path unity is trying to access.
+
+    public void LoadFromLocal()
     {
-        string path = Path.Combine(Application.dataPath, filename); //datapath is the apps data path, 
+        string path = Path.Combine(Application.persistentDataPath, filename);
+
         if (File.Exists(path))
         {
-            string json = File.ReadAllText(path);
+            string json = File.ReadAllText(path); // this load sthe json fine, but then the playerData is left null.
+
+
+            //it gets here why is player data null.
             playerData = JsonUtility.FromJson<PlayerData>(json);
             Debug.Log("Game Data loaded from " + path);
             Debug.Log($"user: {playerData.playerName}");
+
+            ChangeWorld.sliderValue = playerData.sliderValue;
+
+            // load the houses from the player data.
+            foreach (HouseData houseData in playerData.housePrefabs)
+            {
+                GameObject housePrefab = Instantiate(housePrefabToSpawn, houseData.Position, houseData.Rotation);
+                housePrefab.tag = "House"; // set the tag to House so we can find it later.
+            }
         }
-        else 
+        else
         {
             Debug.LogWarning($"No save file found at {path} Creating a new data file.");
             playerData = new PlayerData
@@ -48,7 +65,8 @@ public class LocalSaveManager : MonoBehaviour
             HouseToAdd.Rotation = homie.transform.rotation;
             HouseToAdd.Position = homie.transform.position;
             
-            playerData.housePrefabs.Add(HouseToAdd);
+            // idk why but playerData is null referenced here, yet it is saved everywhere else so im super confused. if i fix this then i know it works, i had it working in class.
+            playerData.housePrefabs.Add(HouseToAdd); 
         }
 
         DateTimeOffset dto = new DateTimeOffset(DateTime.UtcNow);

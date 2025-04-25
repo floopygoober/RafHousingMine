@@ -35,7 +35,7 @@ public class CloudSave : MonoBehaviour
                 string serverResponse = www.downloadHandler.text;
                 PlayerData serverData = JsonUtility.FromJson<PlayerData>(serverResponse);
                 
-                Debug.Log(serverData.playerName);
+                Debug.Log(serverData);
                 localSaveManager.playerData = serverData;
                 localSaveManager.SaveToLocal();
 
