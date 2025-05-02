@@ -4,7 +4,11 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken'
 import pool from "./db.js";
 import fs from 'fs';
-import path from 'path';
+import path from 'path';   
+import { fileURLToPath } from 'url'; // this is in {} because we are not importing default. its a specific module.
+
+const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
+const __dirname = path.dirname(__filename);
 
 router.post('/signup', async (req, res) => { 
     try {
@@ -57,40 +61,42 @@ router.post('/signin', async (req, res) => {
     }
     
     try {
-        const { username, email, password } = req.body;
+        //comented out because data base is now shut down. 
+         const { username, email, password } = req.body;
             
-        if(!username || !password) {
-            return res.status(400).json({ message: "Missing username or password" });
-        } 
+        // if(!username || !password) {
+        //     return res.status(400).json({ message: "Missing username or password" });
+        // } 
 
-        const [existing] = await pool.query(
-            "SELECT id, username, password_hash FROM users WHERE username = ?", 
-            [username]
-        ); 
+        // const [existing] = await pool.query(
+        //     "SELECT id, username, password_hash FROM users WHERE username = ?", 
+        //     [username]
+        // ); 
 
-        if(exisiting.length === 0) {
-            return res.status(401).json({message: "Invalid Credentials"});
-        }
+        // if(exisiting.length === 0) {
+        //     return res.status(401).json({message: "Invalid Credentials"});
+        // }
 
-        const user = existing[0];
+        // const user = existing[0];
 
-        const match = await bcrypt.compare(password, user.password_hash);
-        if(!match) {
-            return res.status(401).json({message: "Invalid Credentials"});
-        }
+        // const match = await bcrypt.compare(password, user.password_hash);
+        // if(!match) {
+        //     return res.status(401).json({message: "Invalid Credentials"});
+        // }
         
         //  generates the JWT token for the user. ALWAYS BE CAREFUL WITH THIS.
         // tokens are cool but dangerous, if someone can get the token we are fucked. they have your login access now. 
         const token = jwt.sign(
-            { userId: user.id, username: user.username },
+            { username: username },
             process.env.JWT_SECRET,
-            { expiresIn: "1d" }
+            { expiresIn: '1s' }
         );
 
         //save to local storage.
         saveTokenToFile(token); // save the token to a file (for demonstration purposes only, not recommended for production because its stupid. really dumb. hackers would love this... i think)
 
         return res.status(200).json({ message: "Logged in", token });
+
     } catch (err) {
         console.error(err);
         return res.status(500).json({message: "Internal Server Error"});        

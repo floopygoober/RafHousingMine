@@ -1,0 +1,918 @@
+[
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T14:41:35.2599773-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "b3669a26-d6d3-45f0-a73e-c6ce234d9b04",
+      "deviceTime",
+      "2025-05-02T21:41:35.2659615Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T21:41:35.291Z"
+  },
+  {
+    "keys": [
+      "timeOfSave",
+      "2025-05-02T21:41:53.5254461Z",
+      "eventName",
+      "saveDateTime",
+      "sessionId",
+      "41a5afe1-678e-49ea-b048-93896ed98fe8",
+      "deviceTime",
+      "2025-05-02T21:41:53.5254461Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T21:41:53.527Z"
+  },
+  {
+    "keys": [
+      "timeOfSave",
+      "2025-05-02T21:41:53.5364656Z",
+      "eventName",
+      "saveDateTime",
+      "sessionId",
+      "5295f7fb-6916-4037-a33f-d1668539f8b6",
+      "deviceTime",
+      "2025-05-02T21:41:53.5364656Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T21:41:53.644Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "18.23786",
+      "endTime",
+      "2025-05-02T21:41:54.7263410Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "0852eca5-7cdd-4834-917d-d404721bc834",
+      "deviceTime",
+      "2025-05-02T21:41:54.7263410Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T21:41:54.729Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T14:42:00.5963364-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "98a9c7fd-a520-40a5-8b27-d5ba78423fb3",
+      "deviceTime",
+      "2025-05-02T21:42:00.6023223Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T21:42:00.610Z"
+  },
+  {
+    "keys": [
+      "timeOfSave",
+      "2025-05-02T21:42:12.3886677Z",
+      "eventName",
+      "saveDateTime",
+      "sessionId",
+      "4b52f1ee-89db-409d-a7bb-55686658ee1a",
+      "deviceTime",
+      "2025-05-02T21:42:12.3886677Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T21:42:12.390Z"
+  },
+  {
+    "keys": [
+      "timeOfSave",
+      "2025-05-02T21:42:12.4006063Z",
+      "eventName",
+      "saveDateTime",
+      "sessionId",
+      "cd9bbc1e-8203-4b16-8566-b86f2467f3a0",
+      "deviceTime",
+      "2025-05-02T21:42:12.4006063Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T21:42:12.506Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "11.76771",
+      "endTime",
+      "2025-05-02T21:42:13.5320224Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "1be83b72-d8c1-4547-9f40-19a5f7baaaa6",
+      "deviceTime",
+      "2025-05-02T21:42:13.5320224Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T21:42:13.535Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T14:42:19.5154376-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "f334f1a2-3620-4123-9ef3-b012cba56b91",
+      "deviceTime",
+      "2025-05-02T21:42:19.5214216Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T21:42:19.528Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "29.05346",
+      "endTime",
+      "2025-05-02T21:42:49.7642849Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "7cc50448-d754-4422-abb5-07dbbedce9b3",
+      "deviceTime",
+      "2025-05-02T21:42:49.7642849Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T21:42:49.767Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:19:11.0585803-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "a49227ee-d620-42f6-94d7-e2f3df0b6db7",
+      "deviceTime",
+      "2025-05-02T22:19:11.0730729Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:19:11.111Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "0.3606267",
+      "endTime",
+      "2025-05-02T22:19:12.6210277Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "4db0ce88-137e-493b-9779-332a0fd5c933",
+      "deviceTime",
+      "2025-05-02T22:19:12.6210277Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:19:12.623Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:21:16.6637566-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "3a903851-68ae-428c-af18-65b12295b112",
+      "deviceTime",
+      "2025-05-02T22:21:16.6697511Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:21:16.675Z"
+  },
+  {
+    "keys": [
+      "timeOfSave",
+      "2025-05-02T22:21:29.8509490Z",
+      "eventName",
+      "saveDateTime",
+      "sessionId",
+      "91e5f89d-c7ad-47a8-833d-0fbd27ffe5fa",
+      "deviceTime",
+      "2025-05-02T22:21:29.8519463Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:21:29.853Z"
+  },
+  {
+    "keys": [
+      "timeOfSave",
+      "2025-05-02T22:21:29.8599253Z",
+      "eventName",
+      "saveDateTime",
+      "sessionId",
+      "72a7bf3c-6a31-4f67-906a-18829ed01bf4",
+      "deviceTime",
+      "2025-05-02T22:21:29.8599253Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:21:29.965Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "15.28747",
+      "endTime",
+      "2025-05-02T22:21:32.0728120Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "e3ec8067-9d84-4942-8cf3-d1cc1a99fb13",
+      "deviceTime",
+      "2025-05-02T22:21:32.0728120Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:21:32.076Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:21:44.5258630-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "b11b7076-3b89-4138-912f-10311da37317",
+      "deviceTime",
+      "2025-05-02T22:21:44.5338581Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:21:44.537Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "9.674913",
+      "endTime",
+      "2025-05-02T22:21:54.3195801Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "9df8cffd-0f68-4b2c-85f6-3128822eb2ae",
+      "deviceTime",
+      "2025-05-02T22:21:54.3201450Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:21:54.322Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:22:28.0651591-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "8954e372-44d3-4e31-93fd-34f562934513",
+      "deviceTime",
+      "2025-05-02T22:22:28.0711406Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:22:28.074Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "23.14977",
+      "endTime",
+      "2025-05-02T22:22:51.3412139Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "fcc48487-1ba0-4a64-b2a9-cca7966b2327",
+      "deviceTime",
+      "2025-05-02T22:22:51.3412139Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:22:51.343Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:24:11.5298012-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "6c48bbb0-c401-463e-bbbc-adb47bcc0478",
+      "deviceTime",
+      "2025-05-02T22:24:11.5357959Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:24:11.539Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "6.746459",
+      "endTime",
+      "2025-05-02T22:24:18.3956146Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "7f0d114c-855e-4475-948c-c8d1710b5f00",
+      "deviceTime",
+      "2025-05-02T22:24:18.3956146Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:24:18.398Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:25:03.7012608-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "f2994cc2-595a-41c6-9738-795b0e1bbf5f",
+      "deviceTime",
+      "2025-05-02T22:25:03.7071649Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:25:03.717Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "8.891258",
+      "endTime",
+      "2025-05-02T22:25:13.8508521Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "3da1ba54-1536-49ea-ba47-794889a92d40",
+      "deviceTime",
+      "2025-05-02T22:25:13.8508521Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:25:13.853Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:25:29.4785253-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "e9f59988-78a4-497d-a177-a15eb8a3f0ad",
+      "deviceTime",
+      "2025-05-02T22:25:29.4840662Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:25:29.487Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "14.01794",
+      "endTime",
+      "2025-05-02T22:26:02.4661234Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "8fbb5cbd-5fa9-46d4-b802-89a65f7b4a73",
+      "deviceTime",
+      "2025-05-02T22:26:02.4661234Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:26:02.489Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:26:11.2188280-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "cf3ffa54-122c-4570-b42c-6c4f74416c98",
+      "deviceTime",
+      "2025-05-02T22:26:11.2264445Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:26:11.229Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "8.658882",
+      "endTime",
+      "2025-05-02T22:26:19.9905938Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "667df93d-fff3-4b1c-923b-cd0013baaf14",
+      "deviceTime",
+      "2025-05-02T22:26:19.9905938Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:26:19.992Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:26:55.8439190-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "a29f6c3e-7ba7-4a59-80f6-9e4b5bece59b",
+      "deviceTime",
+      "2025-05-02T22:26:55.8499404Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:26:55.856Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "7.498011",
+      "endTime",
+      "2025-05-02T22:27:03.4477181Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "a2edb236-bf35-4a23-b99e-ec1a6b477621",
+      "deviceTime",
+      "2025-05-02T22:27:03.4477181Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:27:03.454Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:29:26.6457986-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "c2f504ee-66b0-458c-a191-c1426883e7d0",
+      "deviceTime",
+      "2025-05-02T22:29:26.6517081Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:29:26.655Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "13.61453",
+      "endTime",
+      "2025-05-02T22:30:02.2968257Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "e4d1819a-b113-41c2-9f86-3818d5caeb4d",
+      "deviceTime",
+      "2025-05-02T22:30:02.2968257Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:30:02.299Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:30:13.2493037-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "dd8b15fb-525c-477a-9566-4de3a278ded7",
+      "deviceTime",
+      "2025-05-02T22:30:13.2552874Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:30:13.259Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "12.07076",
+      "endTime",
+      "2025-05-02T22:31:41.3914199Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "97d20f64-d354-4372-a65a-884c01f82210",
+      "deviceTime",
+      "2025-05-02T22:31:41.3914199Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:31:41.394Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:32:00.9700481-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "032f1666-ddc6-43dd-837b-abdbfa9bf11c",
+      "deviceTime",
+      "2025-05-02T22:32:00.9760322Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:32:00.981Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "4.536592",
+      "endTime",
+      "2025-05-02T22:32:07.5081385Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "3c8dc793-22c5-477c-aabf-5368e14837d4",
+      "deviceTime",
+      "2025-05-02T22:32:07.5081385Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:32:07.511Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:33:53.9689378-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "63ca1e2f-df7a-4c08-af6b-d4e427a8f345",
+      "deviceTime",
+      "2025-05-02T22:33:53.9749274Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:33:53.979Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "3.409574",
+      "endTime",
+      "2025-05-02T22:33:57.5162140Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "6cdca809-a2e3-4407-a687-6183c43a31f8",
+      "deviceTime",
+      "2025-05-02T22:33:57.5172134Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:33:57.519Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:37:43.8421741-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "e0885ca8-f720-43e8-8364-ff3bdee51ba0",
+      "deviceTime",
+      "2025-05-02T22:37:43.8511499Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:37:43.856Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "3.785666",
+      "endTime",
+      "2025-05-02T22:37:47.7661843Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "21646920-5622-49ae-9631-06cbc74dcc28",
+      "deviceTime",
+      "2025-05-02T22:37:47.7661843Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:37:47.769Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:39:17.3764921-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "ef6fd3bb-438b-4580-80eb-57806c18118e",
+      "deviceTime",
+      "2025-05-02T22:39:17.3824830Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:39:17.388Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "31.71201",
+      "endTime",
+      "2025-05-02T22:39:49.2921357Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "f091e804-c430-41ec-8834-19459970a9d9",
+      "deviceTime",
+      "2025-05-02T22:39:49.2921357Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:39:49.295Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:40:19.2957514-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "67b5c864-2f29-449a-8008-118ecf785430",
+      "deviceTime",
+      "2025-05-02T22:40:19.3022485Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:40:19.305Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:42:16.0389771-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "88bd02f8-ccc3-4cff-8a9a-705d53ebbec2",
+      "deviceTime",
+      "2025-05-02T22:42:16.0499788Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:42:16.052Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:50:47.0206130-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "267a8d2a-798e-417e-a3ab-d2f6a97b2888",
+      "deviceTime",
+      "2025-05-02T22:50:47.0256020Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:50:47.029Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "12.89465",
+      "endTime",
+      "2025-05-02T22:52:10.7004411Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "c4124ddf-ad42-465a-ae3f-8850718cee2b",
+      "deviceTime",
+      "2025-05-02T22:52:10.7004411Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:52:10.706Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:52:19.0227447-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "1817c04a-6d55-4ad5-a45d-6ade1ffbb35d",
+      "deviceTime",
+      "2025-05-02T22:52:19.0287286Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:52:19.031Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:52:48.7865590-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "d65475d4-2ede-4103-b1aa-784c065213a2",
+      "deviceTime",
+      "2025-05-02T22:52:48.7915638Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:52:48.796Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:54:39.6370173-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "d149d882-f304-48ea-82fa-e5aac4c0c1e5",
+      "deviceTime",
+      "2025-05-02T22:54:39.6420123Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:54:39.645Z"
+  },
+  {
+    "keys": [
+      "timeOfSave",
+      "2025-05-02T22:54:51.4811789Z",
+      "eventName",
+      "saveDateTime",
+      "sessionId",
+      "0186d70e-9ffe-4529-abaa-600241253a13",
+      "deviceTime",
+      "2025-05-02T22:54:51.4811789Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:54:51.482Z"
+  },
+  {
+    "keys": [
+      "timeOfSave",
+      "2025-05-02T22:54:51.4901605Z",
+      "eventName",
+      "saveDateTime",
+      "sessionId",
+      "5bea6999-f6d2-4463-b2a5-030e6c00b946",
+      "deviceTime",
+      "2025-05-02T22:54:51.4901605Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:54:51.595Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "94.02677",
+      "endTime",
+      "2025-05-02T22:57:21.4322343Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "7fb22ab5-b166-4e85-a607-553a3910e169",
+      "deviceTime",
+      "2025-05-02T22:57:21.4322343Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:57:21.450Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T15:57:30.9164759-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "601ac40d-be7c-439d-bdbc-09bcfc9cffca",
+      "deviceTime",
+      "2025-05-02T22:57:30.9229738Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:57:30.926Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "106.7526",
+      "endTime",
+      "2025-05-02T22:59:17.7824653Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "68559baf-04b0-41cc-bc4a-d67ce2bb964d",
+      "deviceTime",
+      "2025-05-02T22:59:17.7824653Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T22:59:17.786Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T16:00:01.0108175-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "f095c105-0115-4410-af98-431a4ab47cc3",
+      "deviceTime",
+      "2025-05-02T23:00:01.0168013Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T23:00:01.019Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "27.75456",
+      "endTime",
+      "2025-05-02T23:11:07.6843466Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "63bc999f-030f-4979-ab2c-312d25a418a5",
+      "deviceTime",
+      "2025-05-02T23:11:07.6843466Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T23:11:07.702Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T16:11:17.7454455-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "1089c91f-cf68-42a0-a5eb-5b03c3a4d0f1",
+      "deviceTime",
+      "2025-05-02T23:11:17.7514377Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T23:11:17.756Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "10.46604",
+      "endTime",
+      "2025-05-02T23:11:28.3553508Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "8b1c4e14-ee7e-4216-b7ab-2027581afb94",
+      "deviceTime",
+      "2025-05-02T23:11:28.3553508Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T23:11:28.357Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T16:13:44.7199644-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "f77735ba-1f91-4d19-a790-29e43f87cc43",
+      "deviceTime",
+      "2025-05-02T23:13:44.7336142Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T23:13:44.736Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T16:16:39.3615946-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "d74fe299-c98f-41bd-b781-b5e7990eddc5",
+      "deviceTime",
+      "2025-05-02T23:16:39.3674955Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T23:16:39.372Z"
+  },
+  {
+    "keys": [
+      "duration_sec",
+      "56.60496",
+      "endTime",
+      "2025-05-02T23:18:30.6285836Z",
+      "eventName",
+      "session_end",
+      "sessionId",
+      "69750531-bd0a-4997-90dc-788f6c995765",
+      "deviceTime",
+      "2025-05-02T23:18:30.6285836Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T23:18:30.656Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "2025-05-02T16:18:40.5672567-07:00",
+      "eventName",
+      "session_start",
+      "sessionId",
+      "fee30b6a-a104-4f2c-9fca-fd18dd97fd93",
+      "deviceTime",
+      "2025-05-02T23:18:40.5822666Z"
+    ],
+    "values": [],
+    "serverReceivedTime": "2025-05-02T23:18:40.585Z"
+  }
+]

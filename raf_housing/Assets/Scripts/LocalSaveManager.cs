@@ -2,15 +2,22 @@ using UnityEngine;
 using System;
 using System.IO;
 using System.Collections.Generic;
+using UnityEngine.Networking;
+using System.Collections;
+using System.Text;
+using Unity.VisualScripting.Antlr3.Runtime;
+using UnityEditor;
 public class LocalSaveManager : MonoBehaviour
 {
     public PlayerData playerData;
     private string filename = "LocalSaveRafHousing.json";
     [SerializeField] private GameObject housePrefabToSpawn;
+    
+    string serverEndPoint = "http://localhost:3000/api/protected"; // used to verify token in this file. 
 
     private void Awake()
     {
-        LoadFromLocal();
+        //LoadFromLocal();
     }
 
     //C:\Users\alimg\AppData\LocalLow\DefaultCompany\RafHousing2D - the path it is actually saved to.
@@ -18,6 +25,7 @@ public class LocalSaveManager : MonoBehaviour
 
     public void LoadFromLocal()
     {
+
         string path = Path.Combine(Application.persistentDataPath, filename);
 
         if (File.Exists(path))
@@ -50,6 +58,37 @@ public class LocalSaveManager : MonoBehaviour
                 // this isnt a game that just gives you free houses you bum you need to earn them
             };
         }
+    }
+
+
+    public void AttemptLoad() 
+    {
+        StartCoroutine(VerifyToken());
+    }
+
+    public IEnumerator VerifyToken() 
+    {
+        // send off the token we saved locally to the server backend at the /api/protected path it will verify our token internally and send a response back.
+        //string token = SessionManager.Instance.AuthToken; // copy the token to our own variable. probably dont need to do it this way
+
+        using (UnityWebRequest www = new UnityWebRequest(serverEndPoint, "GET"))
+        {
+            www.SetRequestHeader("Content-Type", "application/json");
+            www.SetRequestHeader("authorization", "Bearer: " + SessionManager.Instance.AuthToken);
+
+            yield return www.SendWebRequest();
+
+            if (www.result != UnityWebRequest.Result.Success)
+            {
+                Debug.LogWarning("Your token is stale and gross. get something fresh");
+            }
+            else 
+            {
+                // on success, load local save
+                LoadFromLocal();
+            }
+        }
+
     }
 
     public void SaveToLocal() 
@@ -86,4 +125,10 @@ public class LocalSaveManager : MonoBehaviour
             {"timeOfSave", System.DateTime.UtcNow.ToString("o") }
         });
     }
+}
+
+struct TokenData 
+{
+    string Title;
+    string Token;
 }

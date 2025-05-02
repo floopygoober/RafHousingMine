@@ -26,9 +26,9 @@ const TELEMETRY_DATA_FILE = path.join(__dirname, 'telemetryData.json');
 
 app.get("/api/protected", verifyToken, async (req, res) => { // currently dummy code because we dont have the unity token so right now it just returns a value. 
     try {
-        const [rows] = await pool.query("SELECT id, username, email FROM users WHERE id = ?", [req.user.userId]);
-        const user = rows[0];
-        res.json({message: "This is hidden data", user}); 
+        //const [rows] = await pool.query("SELECT id, username, email FROM users WHERE id = ?", [req.user.userId]);
+        //const user = rows[0];
+        res.json({message: "This is hidden data"}); 
     } catch (err) {
         console.error(err);
         res.status(500).json({message: "Internal Server Error"});

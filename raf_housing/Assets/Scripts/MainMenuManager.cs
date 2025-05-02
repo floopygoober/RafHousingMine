@@ -58,7 +58,8 @@ public class MainMenuManager : MonoBehaviour
 
             if (!string.IsNullOrEmpty(signResp.token))
             {
-                SessionManager.Instance.SetAuthToken(signResp.token);
+                //SessionManager.Instance.SetAuthToken(signResp.token);
+                SessionManager.Instance.SetAuthToken("null");
                 Debug.Log("Login successful! " + signResp.token);
 
                 SceneManager.LoadScene(gameSceneName);
